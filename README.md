@@ -39,8 +39,22 @@ The interview reads the repo. The repo absorbs the interview. That closed loop i
 ├── people/            # one file per recurring person in the subject's life
 ├── themes/            # one file per through-line
 ├── media/             # photos, video, audio + INDEX.md
-└── projections/       # one brief per target artifact (book, site, film, ...)
+├── projections/       # one brief per target artifact (book, site, film, ...)
+└── .agents/skills/    # the loop as invocable skills (prep, process, intake, audit)
 ```
+
+## The skills
+
+The loop ships as four repo-local skills under `.agents/skills/`, so any agent harness that discovers skills can run the protocol by verb instead of by prose:
+
+| Skill | Phase | Invoke when |
+|---|---|---|
+| `bio-prep-session` | Prep | Before any interview: "what should I ask next" |
+| `bio-process-capture` | Process | A new transcript, self-capture, or voice memo arrives |
+| `bio-intake-source` | Seeding + intake | Old material arrives (manuscript, journals, prior interviews) |
+| `bio-coherence-audit` | Compound | Every 5 to 10 captures, or monthly |
+
+`AGENTS.md` remains the canonical protocol; the skills are its operational checklists.
 
 ## Who runs it
 

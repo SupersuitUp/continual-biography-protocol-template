@@ -8,6 +8,8 @@ Read these three files before doing anything:
 - [`SUBJECT.md`](./SUBJECT.md): who this biography is about, who it is for, and the ground rules.
 - [`STATE.md`](./STATE.md): the current open threads, gaps, contradictions, and next session guide.
 
+Each phase of the loop below also exists as an invocable skill under [`.agents/skills/`](./.agents/skills/) (`bio-prep-session`, `bio-process-capture`, `bio-intake-source`, `bio-coherence-audit`). This file is canonical; the skills are its checklists. If they drift, this file wins and the skill gets fixed.
+
 ## The loop you run
 
 ### 1. Prep (before every session)
